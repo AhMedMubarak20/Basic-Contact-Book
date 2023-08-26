@@ -30,22 +30,6 @@ while True:
         break
     else:
         print("Invalid choice. Please select a valid option.")
-Project 22: Image Downloader
-
-python
-Copy code
-import requests
-
-def download_image(url, filename):
-    response = requests.get(url)
-    with open(filename, 'wb') as file:
-        file.write(response.content)
-    print("Image downloaded.")
-
-image_url = input("Enter the image URL: ")
-file_name = input("Enter the desired file name: ")
-download_image(image_url, file_name)
-Feel free to ask for more project code whenever you're ready!
 
 
 
